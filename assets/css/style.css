@@ -7,8 +7,8 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    transition: all 200ms ;
-    /* border: 1px solid red; */
+    transition: all 200ms;
+    border: 1px solid red;
 }
 
 .container {
@@ -17,6 +17,10 @@
     padding-left: 12px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.page-7 {
+    overflow: hidden;
 }
 
 .container-2 {
@@ -172,15 +176,15 @@ a {
 
 .burger-1 {
     position: absolute;
-    
-    
+
+
 }
 
 .burger-2 {
     position: absolute;
     left: 16%;
     top: 6%;
-    
+
 }
 
 .burger-3 {
@@ -216,8 +220,8 @@ a {
 
 .burger-8 {
     position: absolute;
-        right: 1%;
-        top: 40%;
+    right: 1%;
+    top: 40%;
 }
 
 .txt-popularised {
@@ -257,6 +261,8 @@ a {
     grid-template-columns: auto;
     grid-template-rows: auto;
     gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .grid-images {
@@ -551,6 +557,7 @@ a {
     justify-content: space-between;
 }
 
+
 .heading-FAQ {
     display: flex;
     align-items: center;
@@ -648,9 +655,10 @@ a {
 .wh-100 {
     width: 100%;
 }
-    .timeline-container{
-        position: relative;
-    }
+
+.timeline-container {
+    position: relative;
+}
 
 .roadmap-burger-1 {
     position: absolute;
@@ -697,8 +705,9 @@ a {
 .roadmap-burger-8 {
     position: absolute;
     bottom: 28%;
-    right: -4%;
+    right: 0%;
 }
+
 
 
 
@@ -729,6 +738,7 @@ a {
         z-index: 8;
         display: flex;
         flex-direction: column;
+       
 
     }
 
@@ -736,6 +746,7 @@ a {
         border: 2px solid black;
         display: flex;
         margin-bottom: 7px;
+        
 
     }
 
@@ -751,16 +762,18 @@ a {
         justify-content: center;
         align-items: center;
         background-color: #F6E300;
+        
     }
 
     .wh-13 {
         width: 13%;
     }
 
-    input[type="checkbox"]:checked+ .nav-bar-menu {
+    input[type="checkbox"]:checked+.nav-bar-menu {
         left: 0;
         opacity: 1;
         z-index: 5;
+        
     }
 }
 
@@ -768,9 +781,11 @@ a {
     .logo {
         max-width: 45%;
     }
-    .logo-footer{
+
+    .logo-footer {
         width: 70%;
     }
+
     .txt-welcome-h2 {
         font-size: 20px;
         margin-top: -8px;
@@ -784,12 +799,12 @@ a {
     }
 
     .img-weareone {
-       margin-top: -8px;
-       margin-left: 8px;
-       width: 40%;
+        margin-top: -8px;
+        margin-left: 8px;
+        width: 40%;
     }
 
-    .col-3{
+    .col-3 {
         width: 50%;
         padding-right: 12px;
         padding-left: 12px;
@@ -997,37 +1012,21 @@ a {
         padding: 10px 25px;
     }
 
-    .burger-1 {
-        
-    }
+    .burger-1 {}
 
-    .burger-2 {
-       
-    }
+    .burger-2 {}
 
-    .burger-3 {
-        
-    }
+    .burger-3 {}
 
-    .burger-4 {
-       
-    }
+    .burger-4 {}
 
-    .burger-5 {
-        
-    }
+    .burger-5 {}
 
-    .burger-6 {
-        
-    }
+    .burger-6 {}
 
-    .burger-7 {
-        
-    }
+    .burger-7 {}
 
-    .burger-8 {
-       
-    }
+    .burger-8 {}
 
 }
 
@@ -1036,7 +1035,7 @@ a {
         gap: 15px;
     }
 
-    
+
 
     a {
         font-size: 12px;
@@ -1170,9 +1169,7 @@ a {
         width: 10%;
     }
 
-    .burger-1 {
-        
-    }
+    .burger-1 {}
 
     .burger-2 {}
 
@@ -1188,7 +1185,7 @@ a {
 
     .burger-8 {}
 
-    .col-6-md{
+    .col-6-md {
         width: 45%;
         padding-right: 12px;
         padding-left: 12px;
@@ -1234,11 +1231,10 @@ a {
     .text {
         font-size: 16px;
     }
-    .col-6-md{
 
-    }
-    
-    .team-images{
+    .col-6-md {}
+
+    .team-images {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
