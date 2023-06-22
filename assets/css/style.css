@@ -22,13 +22,15 @@
 .page-7 {
     overflow: hidden;
 }
-nav{
+
+nav {
     position: sticky;
     top: 0;
-    height: 100px;
+    height: 75px;
     background-color: #F6E300;
     z-index: 8;
 }
+
 .container-2 {
     max-width: 1920px;
     padding-right: 12px;
@@ -128,24 +130,23 @@ a {
     line-height: 180%;
 }
 
-
-
-.nav-txt-home {
-    color: #F4241E;
-    font-weight: 600;
-}
-
 .btn-wallet {
-    background-color: white;
     padding: 12px 30px;
     border-radius: 10px;
     color: #F4241E;
+    border:2px solid #F4241E;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    transition: all 300ms linear;
 }
+.btn-wallet:hover{
+    background-color: #FFFFFF;
+    border: none;
+}
+
 
 .txt-welcome {
     display: flex;
@@ -255,10 +256,15 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-    color: #FFFFFF;
+    color: #F4241E;
+    border: 2px solid #F4241E;
     padding: 15px 32px;
-    background: #F4241E;
+    /* background: #F4241E; */
     border-radius: 10px;
+}
+.btn-discover:hover{
+    background-color: #F4241E;
+    color: white;
 }
 
 
@@ -714,6 +720,10 @@ a {
     right: 0%;
 }
 
+ul li a:hover {
+    color: #F4241E;
+    font-weight: 600;
+}
 
 
 
@@ -744,7 +754,7 @@ a {
         z-index: 8;
         display: flex;
         flex-direction: column;
-       
+
 
     }
 
@@ -752,7 +762,7 @@ a {
         border: 2px solid black;
         display: flex;
         margin-bottom: 7px;
-        
+
 
     }
 
@@ -768,7 +778,7 @@ a {
         justify-content: center;
         align-items: center;
         background-color: #F6E300;
-        
+
     }
 
     .wh-13 {
@@ -779,7 +789,7 @@ a {
         left: 0;
         opacity: 1;
         z-index: 5;
-        
+
     }
 }
 
